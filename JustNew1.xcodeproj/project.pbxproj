@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C7C8C1E2C296D3E00A02244 /* UpdatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7C8C1D2C296D3E00A02244 /* UpdatingView.swift */; };
 		7CE5DBC22C28986000CE1E02 /* JustNew1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5DBC12C28986000CE1E02 /* JustNew1App.swift */; };
 		7CE5DBC42C28986000CE1E02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5DBC32C28986000CE1E02 /* ContentView.swift */; };
 		7CE5DBC62C28986300CE1E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE5DBC52C28986300CE1E02 /* Assets.xcassets */; };
 		7CE5DBC92C28986300CE1E02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE5DBC82C28986300CE1E02 /* Preview Assets.xcassets */; };
+		7CE5DBD12C2898A300CE1E02 /* Container1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5DBCF2C2898A300CE1E02 /* Container1.xcdatamodeld */; };
+		7CE5DBD32C28991000CE1E02 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5DBD22C28991000CE1E02 /* PersistenceController.swift */; };
+		7CE5DBD52C289EB900CE1E02 /* AddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5DBD42C289EB900CE1E02 /* AddingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C7C8C1D2C296D3E00A02244 /* UpdatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatingView.swift; sourceTree = "<group>"; };
 		7CE5DBBE2C28986000CE1E02 /* JustNew1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustNew1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE5DBC12C28986000CE1E02 /* JustNew1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustNew1App.swift; sourceTree = "<group>"; };
 		7CE5DBC32C28986000CE1E02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CE5DBC52C28986300CE1E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CE5DBC82C28986300CE1E02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CE5DBD02C2898A300CE1E02 /* Container1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Container1.xcdatamodel; sourceTree = "<group>"; };
+		7CE5DBD22C28991000CE1E02 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		7CE5DBD42C289EB900CE1E02 /* AddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				7CE5DBC12C28986000CE1E02 /* JustNew1App.swift */,
 				7CE5DBC32C28986000CE1E02 /* ContentView.swift */,
+				7C7C8C1D2C296D3E00A02244 /* UpdatingView.swift */,
+				7CE5DBD42C289EB900CE1E02 /* AddingView.swift */,
+				7CE5DBD22C28991000CE1E02 /* PersistenceController.swift */,
+				7CE5DBCF2C2898A300CE1E02 /* Container1.xcdatamodeld */,
 				7CE5DBC52C28986300CE1E02 /* Assets.xcassets */,
 				7CE5DBC72C28986300CE1E02 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CE5DBC42C28986000CE1E02 /* ContentView.swift in Sources */,
+				7CE5DBD12C2898A300CE1E02 /* Container1.xcdatamodeld in Sources */,
+				7CE5DBD32C28991000CE1E02 /* PersistenceController.swift in Sources */,
 				7CE5DBC22C28986000CE1E02 /* JustNew1App.swift in Sources */,
+				7C7C8C1E2C296D3E00A02244 /* UpdatingView.swift in Sources */,
+				7CE5DBD52C289EB900CE1E02 /* AddingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +353,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CE5DBCF2C2898A300CE1E02 /* Container1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CE5DBD02C2898A300CE1E02 /* Container1.xcdatamodel */,
+			);
+			currentVersion = 7CE5DBD02C2898A300CE1E02 /* Container1.xcdatamodel */;
+			path = Container1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7CE5DBB62C28986000CE1E02 /* Project object */;
 }
